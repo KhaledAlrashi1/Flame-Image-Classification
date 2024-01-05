@@ -2,7 +2,7 @@
 ![Flame](images/flame.png)
 
 ## Overview
-The primary objective of this project is to develop a neural network-based model capable of classifying images of flames into three categories: ethanol, pentane, and propanol. This classification task is crucial for understanding the characteristics and properties of different types of flames, which has practical applications in fields like fire safety, combustion research, and material testing.
+The objective of this project is to develop a neural network-based model capable of classifying images of flames into three categories: ethanol, pentane, and propanol. This classification task is crucial for understanding the characteristics and properties of different types of flames, which has practical applications in fields like fire safety, combustion research, and material testing. The project utilizes the ResNet-34 architecture, a pre-trained model, and leverages transfer learning to the specific task of flame classification.
 
 ## Dataset
 Download the burning liquid dataset from https://doi.org/10.1007/s10973-021-10903-2 – Supplementary Information, File #2. The dataset consists of 3000 hi-resolution flame images of burning ethanol, pentane, and propanol. Extract the images into a data folder. Then split the images into subfolders named ethanol, pentane, and propanol based on their filename.
