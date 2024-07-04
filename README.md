@@ -1,4 +1,4 @@
-# Burning Liquid Image Classification
+# Flame Image Classifier
 ![Flame](images/flame.png)
 
 ## Overview
